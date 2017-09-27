@@ -1,4 +1,6 @@
 import React from 'react';
+// Link allows navigation to different routs in the application.
+// IndexLink is the same as Link with the exception of OnlyActiveOnIndexp property set on it.
 import { Link, IndexLink } from 'react-router';
 
 const Header = () => (
