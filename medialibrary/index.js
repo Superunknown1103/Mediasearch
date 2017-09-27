@@ -7,3 +7,7 @@ ReactDOM.render (
   <Router history={browserHistory} routes={routes} />,
   document.getElementbyId('root')
 );
+
+// Pass in routes and browserHistory as props to Router here. browserHistory uses your browser's
+// History API to create a clean and real URL without the crap that comes with using
+// hashHistory.
